@@ -116,3 +116,21 @@ and we can do the same for ebverything!!
 ```
 
 use Use Ctrl + H to serach classes in the file
+
+## push branch to github
+
+### push branch
+
+git add .
+git checkout -b 02-customization
+git add .
+git commit -m "02:Customization message"
+git push -u origin 02-customization
+
+### create a pull request for the new branch
+
+go to github and open branch
+click on comepea and pull request
+click on create new request
+click on merge pull request
+git checkout main or master branch
