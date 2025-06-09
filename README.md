@@ -134,3 +134,24 @@ click on comepea and pull request
 click on create new request
 click on merge pull request
 git checkout main or master branch
+
+## add home page and layout
+
+```ts
+import React from 'react'
+
+export default function layout({ children }: { children: React.ReactNode }) {
+  return (
+    <div className='flex flex-col min-h-screen'>
+      <Navbar />
+      {children}
+    </div>
+  )
+}
+```
+
+## push branch to github
+
+```ts
+git checkout -b 03-home-layout
+```
