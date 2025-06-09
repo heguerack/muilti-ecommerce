@@ -150,8 +150,22 @@ export default function layout({ children }: { children: React.ReactNode }) {
 }
 ```
 
-## push branch to github
+## push branchh
+
+### push branch new branch
 
 ```ts
-git checkout -b 03-home-layout
+git checkout -b 03-home-layout  // switch locally to a new branch
+git add .  //add new branch locally
+git commit -m "03-Home-Layout" //locally
+git push -u origin 03-home-layout
 ```
+
+### create a pull request
+
+click on compare and pull request
+click on create pull request
+click on merge pull request
+Click on confirm merge
+///branch project is ready on github!
+git checkout main or master branch
